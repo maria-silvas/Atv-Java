@@ -29,34 +29,65 @@ public class ExercicioUm {
         }
 
         switch (menu) {
-            // 1) Crie um programa que calcule a média (`(nota1 + nota2 + nota3 / 3)`)
+
             case 1:
                 // media(double notaUm, double notaDois, double notaTres)
+                 // 1) Crie um programa que calcule a média (`(nota1 + nota2 + nota3 / 3)`
+                 double notaUm = 1.5;
+                 double notaDois = 5.0;
+                 double notaTres = 10; 
+
+                 media (notaUm,notaDois,notaTres);
+                
                 break;
             // 2) Crie um programa que calcule a área (`lado1 * lado2`)
+            // area(double ladoUm, double ladoDois)
             case 2:
-                // area(double ladoUm, double ladoDois)
+                double ladoUm = 1;
+                double ladoDois=3;
+                double area = area (ladoUm , ladoDois);
+              
                 break;
             // 3) Crie um programa que calcule o volume (`largura * altura * profundidade`)
+               // volume(double largura, double altura, double profundidade)
             case 3:
-                // volume(double largura, double altura, double profundidade)
+                 double largura=10;
+                 double altura=30;
+                 double profundidade=40;
+
+                 double volume=  volume (largura,altura,profundidade);
+
                 break;
             // 4) Crie um programa que avalie se um valor é maior do que o dobro de outro valor
+             // valorMaiorQueDobro(double base, double verificar)
             case 4:
-                // valorMaiorQueDobro(double base, double verificar)
+                double base = 40;
+                double verificar = 50;
+
+              boolean valormaior =  valorMaiorQueDobro(base,verificar);
+              System.out.println(valormaior);
+   
                 break;
-            // 5) Crie um programa que calcule _bhaskara_
             case 5:
                 // bhaskara(int a, int b, int c);
+                // 5) Crie um programa que calcule _bhaskara_
+                int a;
+                int b;
+                int c;
+
                 break;
             // 6) Crie um programa que calcule a velocidade média de uma viagem (`distancia (km) / tempo (h)`)
+             // mediaViagem(double distancia, double tempo)
             case 6:
-                // mediaViagem(double distancia, double tempo)
+                
                 break;
             // 7) Crie um programa que calcule o percentual de imposto pago (`faturamento \ qtd imposto`)
+            // percentualImposto(double faturamento, double qtdImposto)
             case 7:
-                // percentualImposto(double faturamento, double qtdImposto)
-                break;
+            double faturamento = 1000;
+            double qtdImposto = 50;
+            double percentualImposto =  percentualImposto (faturamento / qtdImposto)
+         
             // 8) Crie um programa que teste se um valor é par ou ímpar
             case 8:
                 // parOuImpar(int valor)
@@ -90,52 +121,83 @@ public class ExercicioUm {
         }
     }
 
-    public static double media(double notaUm, double notaDois, double notaTres) {
-        return 0;
+    public static double media(double notaUm, double notaDois, double notaTres) { //1
+        
+        double media = (notaUm +notaDois + notaTres ) /3; 
+    
+        return  media;
     }
 
-    public static double area(double ladoUm, double ladoDois) {
-        return 0;
+
+    public static double area(double ladoUm, double ladoDois){ //2
+      double area =  (ladoUm * ladoDois);
+        return area;
     }
 
-    public static double volume(double largura, double altura, double profundidade) {
-        return 0;
+
+    public static double volume(double largura, double altura, double profundidade) { //3
+      double volume= (largura * altura * profundidade);
+       
+        return volume;
     }
 
-    public static boolean valorMaiorQueDobro(double base, double verificar) {
-        return false;
+
+    public static boolean valorMaiorQueDobro(double base, double verificar) { //4 
+    
+        if((base*2) > verificar){
+            System.out.println("maior que dobro");
+            return true ;
+         }else{
+            System.out.println("Menor que o dobro");
+            return false;
+         }
+    
+      
+    
     }
 
-    public static double[] bhaskara(int a, int b, int c) {
+
+    public static double[] bhaskara(int a, int b, int c) { //5
+
         return new double[2];
     }
 
-    public static double mediaViagem(double distancia, double tempo) {
+
+    public static double mediaViagem(double distancia, double tempo) { //6
         return 0;
     }
 
-    public static double percentualImposto(double faturamento, double qtdImposto) {
-        return 0;
+
+    public static double percentualImposto(double faturamento, double qtdImposto) { //7
+        
+        return 
     }
 
-    public static boolean parOuImpar(int valor) {
+
+    public static boolean parOuImpar(int valor) { //8
         return false;
     }
 
-    public static boolean compareString(String stringUm, String stringDois) {
+
+    public static boolean compareString(String stringUm, String stringDois) {//8
         return false;
     }
 
-    public static int convertString(String valor) {
+
+    public static int convertString(String valor) { //9
         return 0;
     }
 
-    public static double percentualImpostoSalario(double salario) {
+
+
+    public static double percentualImpostoSalario(double salario) { //10
         return -1;
     }
 
-    public static boolean testePrimo(int valor) {
+
+    public static boolean testePrimo(int valor) { //11
         return false;
     }
+
 
 }
