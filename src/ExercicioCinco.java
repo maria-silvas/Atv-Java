@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ExercicioCinco {
     
     public static void call(Scanner scanner) {
-        System.out.println("=== EXERCÍCIOS - LISTA 5 ===");
+        System.out.println("=== EXERCICIOS - LISTA 5 ===");
 
         System.out.println("+-------------------------------------------------------+");
         System.out.println("| 1 - Criar Pessoa                                      |");

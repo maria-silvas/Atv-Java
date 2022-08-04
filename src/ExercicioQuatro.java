@@ -6,18 +6,18 @@ import java.util.stream.IntStream;
 
 public class ExercicioQuatro {
     public static void call(Scanner scanner) {
-        System.out.println("=== EXERCÍCIOS - LISTA 3 ===");
+        System.out.println("=== EXERCICIOS - LISTA 3 ===");
 
         System.out.println("+-------------------------------------------------------+");
         System.out.println("| 1 - Tabuada com Arquivo                               |");
         System.out.println("| 2 - Ler e imprimir arquivo de texto                   |");
-        System.out.println("| 3 - Operações básicas com a Main                      |");
-        System.out.println("| 4 - Exponenciação com Precisão Arbitrária             |");
+        System.out.println("| 3 - Operações bAsicas com a Main                      |");
+        System.out.println("| 4 - Exponenciação com Precisão ArbitrAria             |");
         System.out.println("| 5 - Nome aleatório de 5 pessoas                       |");
-        System.out.println("| 6 - Calcular Raio e Área                              |");
+        System.out.println("| 6 - Calcular Raio e Area                              |");
         System.out.println("| 7 - Avaliar se TXT tem JAVA                           |");
-        System.out.println("| 8 - 10 primeiros dígitos                              |");
-        System.out.println("| 9 - Área com a Main                                   |");
+        System.out.println("| 8 - 10 primeiros digitos                              |");
+        System.out.println("| 9 - Area com a Main                                   |");
         System.out.println("| 10 - Receba nome de arquivo na Main com valores       |");
         System.out.println("| 11 - Ler e imprimir arquivo de texto                  |");
         System.out.println("+-------------------------------------------------------+");
@@ -31,7 +31,7 @@ public class ExercicioQuatro {
         }
 
         switch (menu) {
-            // 1) Crie um programa que questione a quantidade de notas a ser informada, receba as notas e calcule a média.
+            // 1) Crie um programa que questione a quantidade de notas a ser informada, receba as notas e calcule a media.
             case 1:
                 // calculaMedia(double[] notas)
                 break;
@@ -43,7 +43,7 @@ public class ExercicioQuatro {
             case 3:
                 // dezValores(double[] valores);
                 break;
-            // 4) Crie um programa que leia 10 valores int e salve em um array, depois imprima se esses valores são pares ou ímpares.
+            // 4) Crie um programa que leia 10 valores int e salve em um array, depois imprima se esses valores são pares ou impares.
             case 4:
                 // dezValoresInt(int[] valores);
                 break;
@@ -59,7 +59,7 @@ public class ExercicioQuatro {
             case 7:
                 // filaBanco();
                 break;
-            // 8) Crie um programa que receba a temperatura média de cada mês do ano e após exiba a temperatura média do ano.
+            // 8) Crie um programa que receba a temperatura media de cada mês do ano e após exiba a temperatura media do ano.
             case 8:
                 // double temperaturaMedia(double[] temperaturas);
                 break;
@@ -67,7 +67,7 @@ public class ExercicioQuatro {
             case 9:
                 // alterarArray(int[] listaUm, int[] listaDois);
                 break;
-            // 10) Crie um programa que leia 20 valores, calcule a média aritmética desses valores e imprima os valores que são inferiores a esta média.
+            // 10) Crie um programa que leia 20 valores, calcule a media aritmetica desses valores e imprima os valores que são inferiores a esta media.
             case 10:
                 // mediaVinte(int[] valores);
                 break;
@@ -77,12 +77,12 @@ public class ExercicioQuatro {
                 break;
         
             default:
-                System.out.println("Operação inválida");
+                System.out.println("Operação invAlida");
                 break;
         }
     }   
 
-    // 1) Crie um programa que questione a quantidade de notas a ser informada, receba as notas e calcule a média.
+    // 1) Crie um programa que questione a quantidade de notas a ser informada, receba as notas e calcule a media.
     public static double calculaMedia(double[] notas) {
         return 0;
     }
@@ -94,7 +94,7 @@ public class ExercicioQuatro {
     public static void dezValores(double[] valores) {
         
     }
-    // 4) Crie um programa que leia 10 valores int e salve em um array, depois imprima se esses valores são pares ou ímpares.
+    // 4) Crie um programa que leia 10 valores int e salve em um array, depois imprima se esses valores são pares ou impares.
     public static void dezValoresInt(int[] valores) {
         
     }
@@ -110,7 +110,7 @@ public class ExercicioQuatro {
     public static void filaBanco() {
 
     }
-    // 8) Crie um programa que receba a temperatura média de cada mês do ano e após exiba a temperatura média do ano.
+    // 8) Crie um programa que receba a temperatura media de cada mês do ano e após exiba a temperatura media do ano.
     public static double temperaturaMedia(double[] temperaturas) {
         return 0;
     }
@@ -118,7 +118,7 @@ public class ExercicioQuatro {
     public static int[] alternarArray(int[] listaUm, int[] listaDois) {
         return new int[20];
     }
-    // 10) Crie um programa que leia 20 valores, calcule a média aritmética desses valores e imprima os valores que são inferiores a esta média.
+    // 10) Crie um programa que leia 20 valores, calcule a media aritmetica desses valores e imprima os valores que são inferiores a esta media.
     public static void mediaVinte(int[] valores) {
         
     }

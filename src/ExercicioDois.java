@@ -4,7 +4,7 @@ public class ExercicioDois {
 
 
     public static void call(Scanner scanner) {
-        System.out.println("=== EXERCÍCIOS - LISTA 2 ===");
+        System.out.println("=== EXERCICIOS - LISTA 2 ===");
 
         System.out.println("+-------------------------------------------------------+");
         System.out.println("| 1 - Calcule a Média                                   |");

@@ -9,18 +9,18 @@ import java.util.Scanner;
 
 public class ExercicioTres {
     public static void call(Scanner scanner) {
-        System.out.println("=== EXERCÍCIOS - LISTA 3 ===");
+        System.out.println("=== EXERCICIOS - LISTA 3 ===");
 
         System.out.println("+-------------------------------------------------------+");
         System.out.println("| 1 - Tabuada com Arquivo                               |");
         System.out.println("| 2 - Ler e imprimir arquivo de texto                   |");
-        System.out.println("| 3 - Operações básicas com a Main                      |");
-        System.out.println("| 4 - Exponenciação com Precisão Arbitrária             |");
+        System.out.println("| 3 - Operações basicas com a Main                      |");
+        System.out.println("| 4 - Exponenciaçao com Precisao Arbitraria             |");
         System.out.println("| 5 - Nome aleatório de 5 pessoas                       |");
-        System.out.println("| 6 - Calcular Raio e Área                              |");
+        System.out.println("| 6 - Calcular Raio e Area                              |");
         System.out.println("| 7 - Avaliar se TXT tem JAVA                           |");
-        System.out.println("| 8 - 10 primeiros dígitos                              |");
-        System.out.println("| 9 - Área com a Main                                   |");
+        System.out.println("| 8 - 10 primeiros digitos                              |");
+        System.out.println("| 9 - Area com a Main                                   |");
         System.out.println("| 10 - Receba nome de arquivo na Main com valores       |");
         System.out.println("| 11 - Ler e imprimir arquivo de texto                  |");
         System.out.println("+-------------------------------------------------------+");
@@ -42,11 +42,11 @@ public class ExercicioTres {
             case 2:
                 // lerArquivoTexto(String arquivo);
                 break;
-            // 3) Crie um programa que receba como entrada da classe Main dois valores numéricos e calcule as operações básicas com eles.
+            // 3) Crie um programa que receba como entrada da classe Main dois valores numericos e calcule as operações bAsicas com eles.
             case 3:
                 // operacoesBasicas(int numeroUm, int numeroDois)
                 break;
-            // 4) Crie um programa que execute uma operação de Exponenciação com o valor inteiro com precisão arbitrária.
+            // 4) Crie um programa que execute uma operação de Exponenciação com o valor inteiro com precisão arbitrAria.
             case 4:
                 // bigIntExpo(BigInteger base, int pow);
                 break;
@@ -54,7 +54,7 @@ public class ExercicioTres {
             case 5:
                 // aleatorizarPessoas();
                 break;
-            // 6) Crie um programa que calcule o raio e a área de uma circunferência (`C = 2πr` e `A = π(r²)`).
+            // 6) Crie um programa que calcule o raio e a Area de uma circunferência (`C = 2πr` e `A = π(r²)`).
             case 6:
                 // areaECircunferencia(double raio);
                 break;
@@ -66,11 +66,11 @@ public class ExercicioTres {
             case 8:
                 // dezDigitos()
                 break;
-            // 9) Crie um programa que receba como entrada da classe Main dois valores numéricos e calcule a área dos valores (`area = lado1 * lado2`).
+            // 9) Crie um programa que receba como entrada da classe Main dois valores numericos e calcule a Area dos valores (`area = lado1 * lado2`).
             case 9:
                 // calculaArea(double numeroUm, double numeroDois);
                 break;
-            // 10) Crie um programa que receba como entrada da classe Main o nome de um arquivo de texto que contenha valores numéricos e some todos os valores, imprimindo no console a soma.
+            // 10) Crie um programa que receba como entrada da classe Main o nome de um arquivo de texto que contenha valores numericos e some todos os valores, imprimindo no console a soma.
             case 10:
                 // somaValoresArquivo(String arquivo);
                 break;
@@ -79,7 +79,7 @@ public class ExercicioTres {
                 // forcaComTxt();
                 break;
             default:
-                System.out.println("Operação inválida");
+                System.out.println("Operação invAlida");
                 break;
         }
         

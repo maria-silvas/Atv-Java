@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class ExercicioExtra {
 
     public static void call(Scanner scanner) {
-        System.out.println("=== EXERCÍCIOS - LISTA EXTRA ===");
+        System.out.println("=== EXERCICIOS - LISTA EXTRA ===");
 
         System.out.println("+-------------------------------------------------------+");
         System.out.println("| 01 - Palindromo                                       |");
@@ -32,29 +32,29 @@ public class ExercicioExtra {
         }
 
         switch (menu) {
-            // 1) Escreva um programa que determine se uma cadeia de caracteres é um palíndromo ou não. Um palíndromo é uma cadeia que é igual à sua inversa.
+            // 1) Escreva um programa que determine se uma cadeia de caracteres e um palíndromo ou não. Um palíndromo e uma cadeia que e igual à sua inversa.
             case 1:
                 // palindromo(String palavra) 
                 break;
-            /* 2) Um banco realiza empréstimos nas seguintes condições:
-             *  * são tomados “P” reais emprestados;
-             *  * “A” reais serão pagos cada mês até que o empréstimo seja quitado; 
-             *  * parte do pagamento mensal serão juros, calculados como "i" por cento do saldo corrente; 
+            /* 2) Um banco realiza emprestimos nas seguintes condições:
+             *  * sao tomados 'P' reais emprestados;
+             *  * 'A' reais serão pagos cada mes ate que o emprestimo seja quitado; 
+             *  * parte do pagamento mensal serão juros, calculados como 'i' por cento do saldo corrente; 
              *  * o restante será aplicado no pagamento da dívida.
-             *  Escreva um programa que leia estes três valores: P, A, i e determine:
-             *  * Para cada mês:
+             *  Escreva um programa que leia estes tres valores: P, A, i e determine:
+             *  * Para cada mes:
              *  a) valor em dinheiro dos juros pagos;
              *  b) valor em dinheiro aplicada no pagamento da dívida;
              *  c) valor acumulado de juros já pagos;
-             *  d) valor ainda por pagar do empréstimo no fim de cada mês;
+             *  d) valor ainda por pagar do emprestimo no fim de cada mes;
              *  * No final do programa:
-             *  e) número de meses necessários para pagar o empréstimo;
+             *  e) número de meses necessários para pagar o emprestimo;
              *  f) quantidade da última prestação.
              */                
             case 2:
                 // juros(double p, double a, double i);
                 break;
-            // 3) Escreva um programa que carregue um carregue um número inteiro pelo teclado e indique se ele faz parte da sequência de Fibonacci.
+            // 3) Escreva um programa que carregue um carregue um número inteiro pelo teclado e indique se ele faz parte da sequencia de Fibonacci.
             case 3:
                 // isFibonacci(int number);
                 break;
@@ -67,7 +67,7 @@ public class ExercicioExtra {
              *  Ex: 2 x 1 = 2 2 x 2 = 4...
              *  Ao escolher a opção 2, o programa pede para o usuário digitar dois valores e mostra todos os números entre eles.
              *  Ex: Digitou 5 e 15, o programa mostra: 5, 6, 7, 8, 9, 10, 11 ,12 ,13, 14, 15
-             *  Ao escolher a opção 3, o programa encerra. Se escolher qualquer outra opção que não essas, mostre uma mensagem de erro “opção inválida”.
+             *  Ao escolher a opção 3, o programa encerra. Se escolher qualquer outra opção que não essas, mostre uma mensagem de erro 'opção inválida'.
              */
             case 5:
                 // tabuadaESequencia(int number);
@@ -102,7 +102,7 @@ public class ExercicioExtra {
             case 9:
                 // countPessoas()
                 break;
-            // 10) Escreva um programa que sorteie um número de 0 a 100 e que permita tentar acertar este número, o programa só irá parar ao acertar. A cada tentativa, deverá exibir se o número é maior ou menor do que o informado.
+            // 10) Escreva um programa que sorteie um número de 0 a 100 e que permita tentar acertar este número, o programa só irá parar ao acertar. A cada tentativa, deverá exibir se o número e maior ou menor do que o informado.
             case 10:
                 // sortNumber();
                 break;
